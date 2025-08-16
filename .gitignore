@@ -1,0 +1,98 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ===================
+# Node / JavaScript
+# ===================
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Testing
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+
+# Production builds
+build/
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Genkit
+.genkit/
+
+# Environment variables
+.env
+.env.*
+*.pem
+bigquery_key.json
+
+# ===================
+# Python
+# ===================
+__pycache__/
+*.py[ocd]
+*.pyd
+*.pyo
+*.pyc
+*.egg-info
+.eggs/
+build/
+dist/
+wheels/
+pip-wheel-metadata/
+pip-log.txt
+
+# Virtual environments
+.venv
+
+# Logs
+*.log
+logs/
+!logs/.gitkeep  # Keep folder but ignore files
+
+# Test and coverage outputs
+htmlcov/
+.coverage
+.coverage.*
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Profiling data
+.prof
+
+# ADK-generated artifacts
+__adk_cache__/
+.adk/
+
+# ===================
+# System / Editors
+# ===================
+.DS_Store
+.vscode/
+.vscode-test/
+.idea/
+*.sublime-workspace
+*.sublime-project
